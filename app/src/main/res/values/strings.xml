@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Hitung Bangun Datar</string>
+    <string name="result">Hasil</string>
+    <string name="around">Keliling</string>
+    <string name="wide">Luas</string>
+    <string name="side">Sisi</string>
+    <string name="title">Pilih bangun datar yang ingin dihitung</string>
+    <string name="square">Persegi</string>
+    <string name="rectangle">Persegi Panjang</string>
+    <string name="triangle">Segitiga Sama Sisi</string>
+    <string name="trapezoid">Trapesium</string>
+    <string name="parallelogram">Jajar Genjang</string>
+    <string name="kite">Layang-layang</string>
+    <string name="rhombus">Belah Ketupat</string>
+    <string name="circle">Lingkaran</string>
+    <string name="length">Panjang</string>
+    <string name="width">Lebar</string>
+    <string name="base">Alas</string>
+    <string name="height">Tinggi</string>
+    <string name="topSide">Sisi Atas</string>
+    <string name="bottomSide">Sisi Bawah</string>
+    <string name="rightSide">Sisi Kanan</string>
+    <string name="leftSide">Sisi Kiri</string>
+    <string name="d1">Diagonal Vertical</string>
+    <string name="d2">Diagonal Horizontal</string>
+    <string name="sideShort">Sisi Pendek</string>
+    <string name="longSide">Sisi Panjang</string>
+    <string name="r">Jari-Jari</string>
+</resources>

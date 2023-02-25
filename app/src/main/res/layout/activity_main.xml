@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/title"
+        android:gravity="center"
+        android:textSize="18sp"/>
+
+    <Button
+        android:id="@+id/btn_square"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="@string/square" />
+
+    <Button
+        android:id="@+id/btn_rectangle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rectangle" />
+
+    <Button
+        android:id="@+id/btn_triangle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/triangle" />
+
+    <Button
+        android:id="@+id/btn_trapezoid"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/trapezoid" />
+
+    <Button
+        android:id="@+id/btn_parallelogram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/parallelogram" />
+
+    <Button
+        android:id="@+id/btn_kite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/kite" />
+
+    <Button
+        android:id="@+id/btn_rhombus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/rhombus" />
+
+    <Button
+        android:id="@+id/btn_circle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/circle" />
+</LinearLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MoveRhombus">
+
+    <TextView
+        android:id="@+id/tv_d1Rhombus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/d1" />
+
+    <EditText
+        android:id="@+id/edt_d1Rhombus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:lines="1" />
+
+    <TextView
+        android:id="@+id/tv_d2Rhombus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/d2" />
+
+    <EditText
+        android:id="@+id/edt_d2Rhombus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:lines="1" />
+
+    <TextView
+        android:id="@+id/tv_sideRhombus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/side" />
+
+    <EditText
+        android:id="@+id/edt_sideRhombus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:lines="1" />
+
+    <Button
+        android:id="@+id/btn_wideRhombus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wide" />
+
+    <Button
+        android:id="@+id/btn_aroundRhombus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/around" />
+
+    <TextView
+        android:id="@+id/tv_resultRhombus"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/result"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+</LinearLayout>

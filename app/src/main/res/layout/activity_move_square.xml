@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    android:orientation="vertical"
+    tools:context=".MoveSquare">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/side" />
+
+    <EditText
+        android:id="@+id/edt_sideSquare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:lines="1" />
+
+    <Button
+        android:id="@+id/btn_wideSquare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wide" />
+
+    <Button
+        android:id="@+id/btn_aroundSquare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/around" />
+
+    <TextView
+        android:id="@+id/tv_resultSquare"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textSize="24sp"
+        android:text="@string/result" />
+
+</LinearLayout>

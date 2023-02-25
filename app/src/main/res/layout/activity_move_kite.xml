@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MoveKite">
+
+    <TextView
+        android:id="@+id/tv_d1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/d1" />
+
+    <EditText
+        android:id="@+id/edt_d1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:lines="1" />
+
+    <TextView
+        android:id="@+id/tv_d2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/d2" />
+
+    <EditText
+        android:id="@+id/edt_d2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:lines="1" />
+
+    <TextView
+        android:id="@+id/tv_sideShort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/sideShort" />
+
+    <EditText
+        android:id="@+id/edt_sideShort"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:lines="1" />
+
+    <TextView
+        android:id="@+id/tv_longSide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/longSide" />
+
+    <EditText
+        android:id="@+id/edt_longSide"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:lines="1" />
+
+    <Button
+        android:id="@+id/btn_wideKite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wide" />
+
+    <Button
+        android:id="@+id/btn_aroundKite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/around" />
+
+    <TextView
+        android:id="@+id/tv_resultKite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/result"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:gravity="center" />
+</LinearLayout>

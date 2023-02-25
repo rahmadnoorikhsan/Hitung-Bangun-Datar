@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MoveParallelogram">
+
+    <TextView
+        android:id="@+id/tv_baseParallelogram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/base" />
+
+    <EditText
+        android:id="@+id/edt_baseParallelogram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:lines="1" />
+
+    <TextView
+        android:id="@+id/tv_heightParallelogram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/height" />
+
+    <EditText
+        android:id="@+id/edt_heightParallelogram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:lines="1" />
+
+    <TextView
+        android:id="@+id/tv_sideParallelogram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/side" />
+
+    <EditText
+        android:id="@+id/edt_sideParallelogram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:lines="1" />
+
+    <Button
+        android:id="@+id/btn_wideParallelogram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wide" />
+
+    <Button
+        android:id="@+id/btn_aroundParallelogram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/around" />
+
+    <TextView
+        android:id="@+id/tv_resultParallelogram"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/result"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:gravity="center" />
+</LinearLayout>

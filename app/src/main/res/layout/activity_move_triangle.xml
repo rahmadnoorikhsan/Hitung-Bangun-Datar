@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MoveTriangle">
+
+    <TextView
+        android:id="@+id/tv_base"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/base" />
+
+    <EditText
+        android:id="@+id/edt_baseTriangle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:lines="1" />
+
+    <TextView
+        android:id="@+id/tv_height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/height" />
+
+    <EditText
+        android:id="@+id/edt_heightTriangle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:lines="1" />
+
+    <TextView
+        android:id="@+id/tv_sideTriangle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/side" />
+
+    <EditText
+        android:id="@+id/edt_sideTriangle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:lines="1" />
+
+    <Button
+        android:id="@+id/btn_wideTriangle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/wide" />
+
+    <Button
+        android:id="@+id/btn_aroundTriangle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/around" />
+
+    <TextView
+        android:id="@+id/tv_resultTriangle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/result"
+        android:textStyle="bold"
+        android:textSize="24sp"
+        android:gravity="center" />
+</LinearLayout>
